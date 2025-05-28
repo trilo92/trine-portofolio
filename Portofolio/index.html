@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trine Løften | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfaf5;
+      color: #4e3d2a;
+    }
+    nav {
+      background-color: #e9ded1;
+    }
+    nav a {
+      color: #4e3d2a;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+    .hero {
+      background-color: #f3e7d9;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+    .section-title {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      font-weight: bold;
+    }
+    .project-card {
+      background-color: #fff8f2;
+      border: 1px solid #e6dcd0;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn-custom {
+      background-color: #bfa89b;
+      color: white;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: #a89081;
+    }
+    footer {
+      background-color: #e9ded1;
+      padding: 1rem 0;
+      text-align: center;
+      color: #4e3d2a;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Trine Løften</a>
+      <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="about">
+    <div class="container">
+      <h1>Hi, I'm Trine — a coder who loves tech, creativity & code.</h1>
+      <p class="lead">I blend warm aesthetics and emotional design into functional web experiences.</p>
+    </div>
+  </section>
+
+  <section class="container" id="projects">
+    <h2 class="section-title text-center">Projects</h2>
+
+    <div class="project-card">
+      <h4>Quote of the Day</h4>
+      <p>A simple app showing a random quote with a clean layout. Built with HTML, CSS, and JavaScript.</p>
+      <a href="https://trilo92.github.io/random-quote-generator/" class="btn btn-custom btn-sm">Live Demo</a>
+      <a href="https://github.com/trilo92/random-quote-generator.git" class="btn btn-outline-secondary btn-sm">GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h4>Task Tracker</h4>
+      <p>A to-do list app using object-oriented JS and Bootstrap, with a polished UI and local task storage.</p>
+      <a href="https://trilo92.github.io/get-it-done/" class="btn btn-custom btn-sm">Live Demo</a>
+      <a href="https://github.com/trilo92/get-it-done.git" class="btn btn-outline-secondary btn-sm">GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h4>Weather Checker</h4>
+      <p>Real-time weather dashboard using the OpenWeather API. Displays live data with a clean card layout.</p>
+      <a href="https://trilo92.github.io/weather-dashboard/" class="btn btn-custom btn-sm">Live Demo</a>
+      <a href="https://github.com/trilo92/weather-dashboard.git" class="btn btn-outline-secondary btn-sm">GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h4>CatMood Tracker</h4>
+      <p>An inviting mood tracker with cat emojis, cozy colors, and random mental wellness tips. Built with love.</p>
+      <a href="https://trilo92.github.io/cat-mood-tracker/" class="btn btn-custom btn-sm">Live Demo</a>
+      <a href="https://github.com/trilo92/cat-mood-tracker.git" class="btn btn-outline-secondary btn-sm">GitHub</a>
+    </div>
+  </section>
+
+  <section class="container text-center" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Feel free to reach out to me via GitHub or LinkedIn.</p>
+    <a href="https://github.com/trilo92" class="btn btn-custom">My GitHub</a>
+    <a href="https://www.linkedin.com/in/trine-epland-loeften" class="btn btn-outline-secondary">LinkedIn</a>
+    <a href="cv.pdf" class="btn btn-outline-secondary">Download Resume</a>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Trine Løften. All rights reserved.</p>
+  </footer>
+</body>
+</html>
